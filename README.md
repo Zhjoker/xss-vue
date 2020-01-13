@@ -5,7 +5,7 @@
 npm i vue-xss
 ```
 ``` javascript
-import vueXss from "vue-xss";
+import xssVue from "xss-vue";
 Vue.use(vueXss,?options);
 ```
 ## 在vue中使用
@@ -19,7 +19,7 @@ this.$xss(text,?options)
 ``` javascript
 <input v-xss="message">
 //自定义参数
-<input v-xss="{message:'alert(xss)',option:{}}">
+<input v-xss="{text:'alert(xss)',option:{}}">
 ```
 ## 修饰符
 * .lazy 修饰符 在默认情况下，v-xss 在每次 input 事件触发后将输入框的值与数据进行同步 (除了上述输入法组合文字时)。你可以添加 lazy 修饰符，从而转变为在每次 input 事件触发停止 500ms 后数据进行同步
