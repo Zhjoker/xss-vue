@@ -1,8 +1,8 @@
-# vue-xss
-[vue-xss](https://github.com/Zhjoker/vue-xss) 基于 [js-xss](https://github.com/leizongmin/js-xss/tree/master/),过滤xss,可配置白名单,可快速的在vue的项目中使用,详细文档可见[JS-XSS文档](https://github.com/leizongmin/js-xss/blob/master/README.md)
+# xss-vue
+[xss-vue](https://github.com/Zhjoker/xss-vue) 基于 [js-xss](https://github.com/leizongmin/js-xss/tree/master/),过滤xss,可配置白名单,可快速的在vue的项目中使用,详细文档可见[JS-XSS文档](https://github.com/leizongmin/js-xss/blob/master/README.md)
 ## 快速开始
 ``` javascript
-npm i vue-xss
+npm i xss-vue
 ```
 ``` javascript
 import xssVue from "xss-vue";
